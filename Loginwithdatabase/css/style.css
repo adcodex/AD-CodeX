@@ -1,0 +1,42 @@
+body {
+    background: url(../image/Tree.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form {
+    background-color: rgb(255, 255, 255, 0.9);
+    width: 25%;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 4px 15px black;
+    text-align: center;
+}
+
+#btn {
+    color: white;
+    background-color: lightsalmon;
+    padding: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s;
+}
+
+#btn:hover {
+    background-color: lightsalmon;
+}
+
+@media screen and (max-width:570px) {
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}
